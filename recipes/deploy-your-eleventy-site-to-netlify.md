@@ -14,18 +14,18 @@ This will get our site out into the world and allow us to preview changes before
 
 ## Directions
 
-1. Log into Netlify
-2. Click the "New site from Git"
-3. Select "Github" as your Git provider
-4. Select your repository (username/my-eleventy-project)
-5. Click the "Deploy site" button
+1. Log into [Netlify](https://app.netlify.com)
+2. Click the "**New site from Git**" button
+3. Select "**Github**" as your Git provider
+4. Select your repository (*username/my-eleventy-project*)
+5. Click the "**Deploy site**" button
 
-## Optional
+### Optional - Change your site name
 
-1. Click the "Site settings" button
-2. Click the "Change site name" button
-3. Enter a custom site name
-4. Click the "Save" button
+6. Click the "**Site settings**" button
+7. Click the "**Change site name**" button
+8. Enter a custom site name
+9. Click the "**Save**" button
 
 ## Resources
 
