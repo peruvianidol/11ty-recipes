@@ -38,7 +38,7 @@ git commit -m "Initial commit"
 8. On the next page copy the two lines under "*...or push an existing repository from the command line*"
 9. Paste them into the terminal. They should look like this:
 ```text
-git remote add origin *remote repository URL*
+git remote add origin [remote repository URL]
 git push -u origin master
 ```
 
