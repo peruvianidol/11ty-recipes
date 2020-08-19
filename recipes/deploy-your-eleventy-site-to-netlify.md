@@ -10,7 +10,7 @@ This will get our site out into the world and allow us to preview changes before
 
 ## Requirements
 
-<input type="checkbox"> A Netlify account
+☑️ A [Netlify](https://netlify.com/) account
 
 ## Directions
 

@@ -10,7 +10,7 @@ Using Github will allow us to version control our project and make things like d
 
 ## What you'll need
 
-<input type="checkbox"> A Github account
+☑️ A [Github](https://github.com) account
 
 ## Directions
 

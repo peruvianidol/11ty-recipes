@@ -5,10 +5,10 @@ title: Start an Eleventy site from scratch
 This is the most basic of sites, but the start of something great! All other recipes will assume you have everything below (What you'll need) and at least this very basic Eleventy setup.
 
 ## What you'll need
-<input type="checkbox"> A terminal emulator (iTerm2)\
-<input type="checkbox"> node.js (https://nodejs.org)\
-<input type="checkbox"> npm\
-<input type="checkbox"> A web browser (Firefox)
+☑️ A terminal emulator (iTerm2)\
+☑️ node.js (https://nodejs.org)\
+☑️ npm\
+☑️ A web browser (Firefox)
 
 ## Directions
 
