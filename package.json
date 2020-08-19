@@ -1,0 +1,23 @@
+{
+  "name": "11ty-recipes",
+  "version": "1.0.0",
+  "description": "There's a ton of great Eleventy starter kits out there but they're pretty opinionated about their features and dependencies. 11ty.recipies helps you build an Eleventy site from scratch, showing you how to add individual features like a SASS pipeline or image sprite generation.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peruvianidol/11ty-recipes.git"
+  },
+  "keywords": [],
+  "author": "Mike Aparicio <peruvianidol@gmail.com> (http://mikeaparicio.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peruvianidol/11ty-recipes/issues"
+  },
+  "homepage": "https://github.com/peruvianidol/11ty-recipes#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
