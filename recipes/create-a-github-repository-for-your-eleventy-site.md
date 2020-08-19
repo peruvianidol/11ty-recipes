@@ -27,3 +27,7 @@ Using Github will allow us to version control our project and make things like d
 9. Paste them into the terminal. They should look like this:\
 `git remote add origin *remote repository URL*`\
 `git push -u origin master`
+
+## Resources
+
+* [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)

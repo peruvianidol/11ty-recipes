@@ -24,3 +24,8 @@ This will get our site out into the world and allow us to preview changes before
 2. Click the "Change site name" button
 3. Enter a custom site name
 4. Click the "Save" button
+
+## Resources
+
+[Netlify Tutorial - Deploying from Git](https://youtu.be/mN9oI98As_4)
+[Netlify Docs - Create deploys](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git)
