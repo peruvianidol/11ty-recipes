@@ -1,4 +1,6 @@
-# Deploy your Eleventy site to Netlify
+---
+title: Deploy your Eleventy site to Netlify
+---
 
 This will get our site out into the world and allow us to preview changes before going live.
 
@@ -8,7 +10,7 @@ This will get our site out into the world and allow us to preview changes before
 
 ## Requirements
 
-- [ ]  A Netlify account
+<input type="checkbox"> A Netlify account
 
 ## Directions
 
@@ -27,5 +29,5 @@ This will get our site out into the world and allow us to preview changes before
 
 ## Resources
 
-[Netlify Tutorial - Deploying from Git](https://youtu.be/mN9oI98As_4)
-[Netlify Docs - Create deploys](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git)
+* [Netlify Tutorial - Deploying from Git](https://youtu.be/mN9oI98As_4)
+* [Netlify Docs - Create deploys](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git)

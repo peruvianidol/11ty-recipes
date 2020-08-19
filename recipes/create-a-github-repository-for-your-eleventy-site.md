@@ -1,4 +1,6 @@
-# Create a Github repository for your Eleventy site
+---
+title: Create a Github repository for your Eleventy site
+---
 
 Using Github will allow us to version control our project and make things like deploying our site easier.
 
@@ -8,7 +10,7 @@ Using Github will allow us to version control our project and make things like d
 
 ## What you'll need
 
-- [ ]  A Github account
+<input type="checkbox"> A Github account
 
 ## Directions
 
