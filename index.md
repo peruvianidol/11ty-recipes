@@ -11,21 +11,24 @@ There's a ton of great Eleventy starter kits out there but they're pretty opinio
 3. [Deploy your Eleventy site to Netlify](/recipes/deploy-your-eleventy-site-to-netlify/)
 4. [Add a layout template](/recipes/add-a-layout-template/)
 5. [Add front matter to all files](/recipes/add-front-matter-to-all-files-in-a-directory)
+6. [Add CSS using passthrough file copy](/recipes/add-css-using-passthrough-file-copy/)
 
 ## Coming soon
 
+* Add scripts to package.json
+* Add a blog collection
+* List items in a collection
+* Add tag
 * Setup a custom domain on Netlify
 * Add a deploy status badge
-* Add syntax highlighting
-* Add CSS/images using passthrough file copy
-* Add scripts to package.json
-* Add search
-* Add a 404 page
 * Add an RSS feed
 * Add Navigation
+* Add a 404 page
 * Add cache busting
-* Add SASS
 * Add a contact form
+* Add a SASS pipeline
+* Add syntax highlighting
+* Add search
 
 ## Contribute
 
