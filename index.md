@@ -9,12 +9,12 @@ There's a ton of great Eleventy starter kits out there but they're pretty opinio
 1. [Start an Eleventy site from scratch](/recipes/start-an-eleventy-site-from-scratch/)
 2. [Create a Github repository for your Eleventy site](/recipes/create-a-github-repository-for-your-eleventy-site/)
 3. [Deploy your Eleventy site to Netlify](/recipes/deploy-your-eleventy-site-to-netlify/)
+4. [Add a layout template](/recipes/add-a-layout-template/)
+5. [Add front matter to all files](/recipes/add-front-matter-to-all-files-in-a-directory)
 
 ## Coming soon
 
 * Setup a custom domain on Netlify
-* Add a layout template
-* Add front matter to all files in a directory
 * Add a deploy status badge
 * Add syntax highlighting
 * Add CSS/images using passthrough file copy
