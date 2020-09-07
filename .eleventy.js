@@ -6,4 +6,11 @@ module.exports = function(eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // Collections
+  eleventyConfig.addCollection('recipes', collection => {
+    return [
+      ...collection.getFilteredByGlob('./recipes/*.md')
+    ];
+  });
 };

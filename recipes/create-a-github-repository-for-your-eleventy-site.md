@@ -4,15 +4,15 @@ title: Create a Github repository for your Eleventy site
 
 Using Github will allow us to version control our project and make things like deploying our site easier.
 
-## Prerequisites
+### Prerequisites
 
 - [Start an Eleventy site from scratch](/recipes/start-an-eleventy-site-from-scratch/)
 
-## What you'll need
+### What you'll need
 
 ☑️ A [Github](https://github.com) account
 
-## Directions
+### Directions
 
 1. Create a .gitignore file and add the *node_modules* and *_site* folders
 ```text
@@ -42,6 +42,6 @@ git remote add origin [remote repository URL]
 git push -u origin master
 ```
 
-## Resources
+### Resources
 
 * [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)

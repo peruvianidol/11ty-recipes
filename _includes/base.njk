@@ -13,8 +13,14 @@ title: 11ty Recipes
 </head>
 <body>
 
+<header>
+  <h1><a href="/"><span>11ty</span><span class="dot">&middot;</span><span>Recipes</span></a></h1>
+</header>
+
 <main>
-  <h1>{{ title }}</h1>
+  {% if title != '11ty Recipes' %}
+  <h2>{{ title }}</h2>
+  {% endif %}
   {{ content | safe }}
 </main>
 

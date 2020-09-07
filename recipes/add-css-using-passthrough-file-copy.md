@@ -2,7 +2,7 @@
 title: Add CSS using passthrough file copy
 ---
 
-## Directions
+### Directions
 
 1. Create a file in your project root called **.eleventy.js** and add the following:
 
@@ -37,6 +37,6 @@ eleventyConfig.addPassthroughCopy("img");
 eleventyConfig.addPassthroughCopy("js");
 ```
 
-## Resources
+### Resources
 
 - [Eleventy Documentation - Passthrough File Copy](https://www.11ty.dev/docs/copy/)

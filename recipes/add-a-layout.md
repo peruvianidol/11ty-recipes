@@ -1,10 +1,10 @@
 ---
-title: Add a layout template
+title: Add a layout
 ---
 
-Adding a layout template allows you to nest the content of HTML or Markdown pages.
+Adding a layout allows you to insert the content of multiple HTML or Markdown pages into a common template.
 
-## Directions
+### Directions
 
 1. Create a folder in the root of your project called **_includes**
 2. Create a file inside of **_includes** called **base.njk**
@@ -53,6 +53,6 @@ title: My Eleventy Project
 
 9. Delete your title: ~~`# My Eleventy Project`~~
 
-## Resources
+### Resources
 
 - [Eleventy Documentation - Layouts](https://www.11ty.dev/docs/layouts/)
