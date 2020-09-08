@@ -1,5 +1,5 @@
 ---
-title: Add CSS using passthrough file copy
+title: Add files using passthrough file copy
 ---
 
 ### Directions
@@ -30,7 +30,7 @@ body {
 
 5. Visit your index page at [**https://localhost:8080**](https://localhost:8080) and your styles should now be linked.
 
-6. You can also add passthrough for images and JS files in **.eleventy.js**:
+6. You can also add passthrough for images and JS files in **.eleventy.js**. The following will copy any files in the /img or /js folders:
 
 ```javascript
 eleventyConfig.addPassthroughCopy("img");
