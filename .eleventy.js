@@ -8,9 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   // Collections
-  eleventyConfig.addCollection('recipes', collection => {
-    return [
-      ...collection.getFilteredByGlob('./recipes/*.md')
-    ];
+  eleventyConfig.addCollection("recipes", function(collectionApi) {
+    return collectionApi.getFilteredByTag("recipe");
   });
 };
