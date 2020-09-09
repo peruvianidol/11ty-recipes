@@ -56,7 +56,7 @@ header {
   background-color: var(--blue);
   color: var(--white);
   grid-area: header;
-  padding: 1rem 0;
+  padding: .5rem 0;
   margin-bottom: 2rem;
 }
 
@@ -89,6 +89,10 @@ main {
 }
 
 @media (min-width: 600px) {
+  header {
+    padding: 1rem 0;
+  }
+
   .er-logo {
     width: 150px;
   }
