@@ -79,11 +79,21 @@ main {
 }
 
 .er-logo {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
 .er-wordmark {
-  width: 250px;
+  width: 150px;
   height: auto;
+}
+
+@media (min-width: 600px) {
+  .er-logo {
+    width: 150px;
+  }
+  
+  .er-wordmark {
+    width: 250px;
+  }
 }
