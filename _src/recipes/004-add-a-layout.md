@@ -42,7 +42,7 @@ layout: base
 
 7. Before `{% raw %}{{ content | safe }}{% endraw %}`, add: 
 ```html
-<h1>{{ title }}</h1>
+<h1>{% raw %}{{ title }}{% endraw %}</h1>
 ``` 
 
 8. In **index.md**, add another line to your front matter:
