@@ -2,9 +2,11 @@
 title: Add front matter to all files in a directory
 ---
 
+Rather than add the same front matter to every file in a directory, Eleventy will automatically apply any values in a JSON file with the same name to every file.
+
 ### Prerequisites
 
-[Add a layout template](https://www.notion.so/Add-a-layout-template-950ce9fa0f2d4d7eadc878ac8eac2bc8)
+[Add a layout template](../add-a-layout/)
 
 ### Directions
 

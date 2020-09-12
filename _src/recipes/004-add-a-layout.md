@@ -24,7 +24,7 @@ Adding a layout allows you to insert the content of multiple HTML or Markdown pa
 </html>
 ```
 
-4. In [**index.md**](http://index.md) add some front matter to the top of the page.
+4. In **index.md** add some front matter to the top of the page.
 
 ```text
 ---
