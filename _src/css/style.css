@@ -101,6 +101,10 @@ main {
   height: auto;
 }
 
+.er-author {
+  font-size: 1rem;
+}
+
 .sr-only {
   position: absolute;
   left: -10000px;

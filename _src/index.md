@@ -2,7 +2,7 @@
 layout: base
 ---
 
-There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out there but they're pretty opinionated about their features and dependencies. <strong>11ty.recipes</strong> helps you build an Eleventy site from scratch, showing you how to add individual features like a SASS pipeline or icon sprite generation to craft the exact site you need.
+There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out there but they're pretty opinionated about their features and dependencies. <strong>11ty.recipes</strong> helps you build an Eleventy site from scratch, showing you how to add individual features to craft the exact site you need.
 
 ## Recipes
 

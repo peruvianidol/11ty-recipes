@@ -26,6 +26,9 @@ title: 11ty Recipes
   {% if title != '11ty Recipes' %}
   <h2>{{ title }}</h2>
   {% endif %}
+  {% if authorName %}
+    <p class="er-author">By <a href="{{ authorUrl }}">{{ authorName }}</a></p>
+  {% endif %}
   {{ content | safe }}
 </main>
 
