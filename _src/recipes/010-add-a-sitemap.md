@@ -4,7 +4,7 @@ authorName: Akbarsait
 authorUrl: https://www.akbarsait.com
 ---
 
-Sitemap helps search engine crawl for making easier and quicker way to find and index your website content. The base blog of 11ty is already equipped and have a built in sitemap but added couple of date relavent changes to it make it more easier
+Sitemap helps search engine crawl for making easier and quicker way to find and index your website content. The base blog of 11ty is already equipped but here we have added few changes especially for the dates to make it easier and readable. 
 
 ### Directions
 1. Create a file in your source directory  called **sitempa.njk** and add the following content to it.
@@ -26,14 +26,11 @@ eleventyExcludeFromCollections: true
 </urlset>
 ```
 
-2. Now you have the **sitemap.xml** ready. Let's add one final thing to make it working. Let the search engine know where to find it by updating your robots.txt. Here is the content if you don't have the robots.txt already
+2. Now you have the **sitemap.xml** ready. Let's add one final thing to make it working by updating the robots.txt to let the search engine know where to find it. Here is the content if you don't have the robots.txt already. 
 
 ```md
-Sitemap: https://www.akbarsait.com/sitemap.xml
+Sitemap: https://www.yoursitename.com/sitemap.xml
 
 User-agent: *
 Disallow:
 ```
-### Resources
-
-- [Eleventy Documentation - Quick Tip #006—Adding a 404 Not Found Page To Your Static Site](https://www.11ty.dev/docs/quicktips/not-found/)
