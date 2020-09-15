@@ -1,5 +1,5 @@
 ---
-title: Deploy your Eleventy site to Netlify
+title: Deploy an Eleventy site to Netlify
 ---
 
 This will get our site out into the world and allow us to preview changes before going live.

@@ -110,6 +110,19 @@ main {
   overflow: hidden;
 }
 
+.highlight-line {
+  opacity: .6;
+}
+
+.highlight-line.highlight-line-active {
+  opacity: 1;
+  color: inherit;
+}
+
+mark {
+  background-color: inherit;
+}
+
 @media (min-width: 600px) {
   header {
     padding: 1rem 0;

@@ -1,5 +1,7 @@
 {
   "layout": "base",
   "tags": "recipe",
-  "permalink": "recipes/{{ title | slug }}/index.html"
+  "permalink": "recipes/{{ title | slug }}/index.html",
+  "authorName": "Mike Aparicio",
+  "authorURL": "https://mikeaparicio.com/"
 }
