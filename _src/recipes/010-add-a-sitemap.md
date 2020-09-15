@@ -12,7 +12,7 @@ Add a site.json file [Reference](https://www.11ty.dev/docs/data-global/) with th
 
 ```md
 {
-    "url": "https://www.yourwebsiteurl.dev"
+    "url": "https://www.yoursitename.dev"
 }
 ```
 
@@ -30,7 +30,6 @@ eleventyExcludeFromCollections: true
         <url>
             <loc>{{ site.url }}{{ page.url | url }}</loc>
             <lastmod>{{ page.date.toISOString() }}</lastmod>
-            <changefreq>{{page.data.changeFreq}}</changefreq>
         </url>
     {% endfor %}{% endraw %}
 </urlset>
