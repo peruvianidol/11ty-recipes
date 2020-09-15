@@ -167,6 +167,10 @@ ol > li:not(:last-child) {
   color: inherit;
 }
 
+.token.title.important {
+  color: inherit;
+}
+
 mark {
   background-color: inherit;
 }
