@@ -28,7 +28,7 @@ If you have a specific recipe you'd like to see here, please visit the [Github r
 
 ### Made With ❤️
 
-11ty.Recipes is built with [Eleventy](https://11ty.dev/) (obviously) and hosted by the wonderful folks at [Netlify](https://netlify.com/)</a>.
+**11ty.Recipes** is built with [Eleventy](https://11ty.dev/) (obviously) and hosted by the wonderful folks at [Netlify](https://netlify.com/)</a>.
 
 The font used is [Inter](https://fonts.google.com/specimen/Inter) by Rasmus Andersson, available on Google Fonts.
 

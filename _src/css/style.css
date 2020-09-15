@@ -101,6 +101,10 @@ footer p {
   margin: 0;
 }
 
+ol > li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .er-container {
   max-width: 65ch;
   margin: 0 auto;
