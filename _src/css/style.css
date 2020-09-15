@@ -75,9 +75,15 @@ header {
   margin-bottom: 2rem;
 }
 
+header .er-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 nav a {
   color: inherit;
   font-weight: 600;
+  font-size: 1.125rem;
   text-decoration: none;
   border-bottom: 2px solid transparent;
 }
@@ -123,6 +129,10 @@ ol > li:not(:last-child) {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.er-space-between > :not(:last-child) {
+  margin-right: 1rem;
 }
 
 .er-logo {
