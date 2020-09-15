@@ -2,8 +2,15 @@
 
 # 11ty Recipes
 
-There's a ton of great Eleventy starter kits out there but they're pretty opinionated about their features and dependencies. 11ty.recipies helps you build an Eleventy site from scratch, showing you how to add individual features like a SASS pipeline or image sprite generation to craft the exact site you need.
+There's a ton of great Eleventy starter kits out there but they're pretty opinionated about their features and dependencies. 11ty.recipies helps you build an Eleventy site from scratch, showing you how to add individual features to craft the exact site you need.
 
 ## Contribute
 
-Submit and issue or a pull request if there's a specific recipe you'd like to see!
+Submit an issue or a pull request if there's a specific recipe you'd like to see.
+
+If submitting a PR, be sure to include the following in the front matter to receive proper credit.
+
+```
+authorName: [Your Name]
+authorUrl: [A link to your website or Twitter]
+```
