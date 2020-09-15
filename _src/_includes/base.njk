@@ -13,12 +13,15 @@ title: 11ty Recipes
 <body>
 
 <header>
-  <div class="er-container">
+  <div class="er-container er-space-between">
     <a href="/" class="er-inline-flex-row">
       <img src="/images/logos/possum.svg" alt="A delightful cartoon possum wearing a chef's hat. A chef's knife and spoon are crossed beneath him." class="er-logo">
       <img src="/images/logos/wordmark.svg" alt="Eleventy Recipes Wordmark" class="er-wordmark">
     </a>
     <h1 class="sr-only">Eleventy Recipes</h1>
+    <nav>
+      <a href="/about/">About</a>
+    </nav>
   </div>
 </header>
 
@@ -31,6 +34,10 @@ title: 11ty Recipes
   {% endif %}
   {{ content | safe }}
 </main>
+
+<footer>
+  <p>Got an idea for a recipe? <a href="https://github.com/peruvianidol/11ty-recipes">Contribute on Github</a></p>
+</footer>
 
 </body>
 </html>

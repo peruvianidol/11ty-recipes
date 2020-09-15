@@ -32,8 +32,3 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 * Data files
 * Icon sprite generation
 
-## Contribute
-
-Got an idea for a recipe?
-
-[Contribute on Github](https://github.com/peruvianidol/11ty-recipes)

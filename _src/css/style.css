@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 :root {
   --pink: #ffa9a9;
   --black: #222222;
@@ -16,7 +18,7 @@ body {
   grid-template-areas:
   "header header header"
   ". main ."
-  "footer footer footer";
+  ". footer .";
   font-family: Inter, sans-serif;
   margin: 0;
   font-size: 1.25rem;
@@ -73,8 +75,30 @@ header {
   margin-bottom: 2rem;
 }
 
+nav a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  border-color: var(--color-white);
+}
+
 main {
   grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
 }
 
 .er-container {
@@ -87,8 +111,14 @@ main {
   align-items: center;
 }
 
-.er-flex-row > :not(:last-child) {
+.er-inline-flex-row > :not(:last-child) {
   margin-right: 1rem;
+}
+
+.er-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .er-logo {
