@@ -31,6 +31,8 @@ authorUrl: [A link to your website or Twitter]
 
 - References to filenames or folders should be emphasized using **strong**
 
+- Remember to escape Nunjucks tags in code snippets with `{% raw %}{% endraw %}` so that they are not processed when the recipe page is built.
+
 - Always include a **References** section, when possible, to direct the user to resources where they can learn more about this recipe. This includes relevant pages from the [Eleventy Documentation](https://11ty.dev/docs/), tutorial videos, articles, Github repos, etc.
 
 ## Questions/Feedback
