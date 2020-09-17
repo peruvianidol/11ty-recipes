@@ -20,7 +20,6 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 * RSS feed
 * Custom domain on Netlify
 * Deploy status badge
-* 404 page
 * SASS
 * Cache busting
 * Contact form
@@ -29,6 +28,5 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 * Pagination
 * Search
 * Image optimization
-* Data files
 * Icon sprite generation
 
