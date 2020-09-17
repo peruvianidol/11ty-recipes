@@ -14,3 +14,25 @@ If submitting a PR, be sure to include the following in the front matter to rece
 authorName: [Your Name]
 authorUrl: [A link to your website or Twitter]
 ```
+
+## Some tips for contributing
+
+- The title should be actionable (Add a layout, Change the default directories) and should not refer to Eleventy or "your site/a site," which are implied already.
+
+- Recipes should have a short introduction to what the user will be doing and how this feature benefits them.
+
+- Recipes should stand on their own. If a user needs to do several things to make something work, it should be broken out into separate recipes with later steps referencing those as **Prerequisites**. See [Add a 404 page](http://localhost:8081/recipes/add-a-404-page/) for an example.
+
+- The **Directions** section should be an ordered list with code samples for each step, where applicable. If adding to existing code, it can be helpful to highlight the lines being added with existing code around it for context. See step 4 of [Add global data](http://localhost:8081/recipes/add-global-data/). You can do this in Markdown by adding line numbers (these are zero-indexed, so the first line is **0**) to highlight at the start of a codeblock:
+
+```
+```html/3-5, 6-9
+```
+
+- References to filenames or folders should be emphasized using **strong**
+
+- Always include a **References** section, when possible, to direct the user to resources where they can learn more about this recipe. This includes relevant pages from the [Eleventy Documentation](https://11ty.dev/docs/), tutorial videos, articles, Github repos, etc.
+
+## Questions/Feedback
+
+If you have any questions or feedback, please reach out to me via [Twitter](https://twitter.com/peruvianidol). Thanks!
