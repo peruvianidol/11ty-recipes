@@ -2,7 +2,7 @@
 title: "Add scripts to package.json"
 ---
 
-We can add commands to the scripts section of our `package.json` file to make shorter aliases for running Eleventy as well as combining it with other commands. For now, let's set up a development command, which will run Eleventy in watch mode and refresh the browser when we make changes, and a production command, which will just build the site.
+We can add commands to the scripts section of our **package.json** file to make shorter aliases for running Eleventy as well as combining it with other commands. For now, let's set up a development command, which will run Eleventy in watch mode and refresh the browser when we make changes, and a production command, which will just build the site.
 
 ### Directions
 
@@ -17,7 +17,7 @@ We can add commands to the scripts section of our `package.json` file to make sh
 },
 ```
 
-3. Run the **dev** script from the command line
+3. Run the `dev` script from the command line
 
 ```text
 npx run dev

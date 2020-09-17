@@ -34,7 +34,7 @@ layout: base
 
 5. Visit your index page and now it should be rendering as HTML instead of Markdown. [**https://localhost:8080/**](https://localhost:8080/)
 
-6. Let's make our title dynamic. In **_includes/base.njk**, Replace the conent of the title with `{% raw %}{{ title }}{% endraw %}`
+6. Let's make our title dynamic. In **_includes/base.njk**, Replace the content of the title with `{% raw %}{{ title }}{% endraw %}`
 
 ```html
 <title>{% raw %}{{ title }}{% endraw %}</title>

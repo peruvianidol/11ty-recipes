@@ -14,7 +14,7 @@ Using Github will allow us to version control our project and make things like d
 
 ### Directions
 
-1. Create a .gitignore file and add the *node_modules* and *_site* folders
+1. Create a **.gitignore** file and add the **node_modules** and **_site** folders
 ```text
 echo 'node_modules\n_site' > .gitignore
 ```

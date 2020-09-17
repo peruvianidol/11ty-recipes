@@ -22,7 +22,7 @@ mkdir my-eleventy-project
 cd my-eleventy-project
 ```
 
-3. Create a package.json file
+3. Create a **package.json** file
 ```text
 npm init -y
 ```
