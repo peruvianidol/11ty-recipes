@@ -1,0 +1,4 @@
+Sitemap: https://11ty.recipes/sitemap.xml
+
+User-agent: *
+Disallow:
