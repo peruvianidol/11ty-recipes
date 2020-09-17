@@ -4,7 +4,7 @@ authorName: Akbarsait
 authorUrl: https://www.akbarsait.com
 ---
 
-Sitemap helps search engine crawl for making easier and quicker way to find and index your website content. The base blog of 11ty is already equipped but here we have added few changes especially for the dates to make it easier and readable. 
+A sitemap helps search engines crawl your site, making easier and quicker to find and index your website content. 
 
 ### Prerequisites
 
@@ -12,7 +12,9 @@ Sitemap helps search engine crawl for making easier and quicker way to find and 
 - A `url` in **_data/site.json**
 
 ### Directions
-1. Create a file in your source directory  called **sitemap.njk** and add the following content to it.
+
+1. Create a file in your source directory called **sitemap.njk** and add the following content to it
+
 
 ```md
 ---
