@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy("_src/css");
   eleventyConfig.addPassthroughCopy("_src/images");
-
+  eleventyConfig.addPassthroughCopy("_src/fonts");
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
 
