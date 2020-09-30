@@ -35,6 +35,12 @@ authorUrl: [A link to your website or Twitter]
 
 - Always include a **References** section, when possible, to direct the user to resources where they can learn more about this recipe. This includes relevant pages from the [Eleventy Documentation](https://11ty.dev/docs/), tutorial videos, articles, Github repos, etc.
 
+## Installing the repo
+
+1. Clone this repo
+2. Run `npm install` in the repo directory
+3. Run `npm start` to serve your Eleventy site at `https://localhost:8080` and watch for changes
+
 ## Questions/Feedback
 
 If you have any questions or feedback, please reach out to me via [Twitter](https://twitter.com/peruvianidol). Thanks!
