@@ -12,7 +12,6 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 
 ## Coming soon
 
-* Collections
 * Dates
 * Tags
 * Navigation
