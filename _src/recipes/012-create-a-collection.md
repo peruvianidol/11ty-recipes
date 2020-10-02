@@ -43,8 +43,7 @@ Hello from {% raw %}{{ title }}{% endraw %}!
 ## My posts
 
 {% raw %}{%- for post in collections.general %}
-  [{{ post.data.title }}]({{ post.url }})
-
+* [{{ post.data.title }}]({{ post.url }})
 {%- endfor %}{% endraw %}
 ```
 
@@ -53,18 +52,14 @@ The above code will output the following HTML:
 ```html
 <h2>My posts</h2>
 
-<p>
-  <a href="/posts/my-first-post.md">My First Post</a>
-</p>
-<p>
-  <a href="/posts/my-second-post.md">My Second Post</a>
-</p>
-<p>
-  <a href="/posts/my-third-post.md">My Third Post</a>
-</p>
+<ul>
+  <li><a href="/posts/my-first-post.md">My First Post</a></li>
+  <li><a href="/posts/my-second-post.md">My Second Post</a></li>
+  <li><a href="/posts/my-third-post.md">My Third Post</a></li>
+</ul>
 ```
 
-5. Once you create your first collection, there are several ways you can manipulate it...
+5. Once you create your first collection, there are several ways you can manipulate it:
 
 * [Excluding entries from a collection](https://www.11ty.dev/docs/collections/#option-exclude-content-from-collections)
 * [Outputting entries that share multiple tags](https://www.11ty.dev/docs/collections/#multiple-tags-single-line)
