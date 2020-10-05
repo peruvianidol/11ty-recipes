@@ -24,8 +24,6 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 * Contact form
 * Syntax highlighting
 * Minification
-* Pagination
 * Search
 * Image optimization
 * Icon sprite generation
-
