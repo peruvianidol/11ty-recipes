@@ -21,9 +21,9 @@ authorUrl: [A link to your website or Twitter]
 
 - Recipes should have a short introduction to what the user will be doing and how this feature benefits them.
 
-- Recipes should stand on their own. If a user needs to do several things to make something work, it should be broken out into separate recipes with later steps referencing those as **Prerequisites**. See [Add a 404 page](http://localhost:8081/recipes/add-a-404-page/) for an example.
+- Recipes should stand on their own. If a user needs to do several things to make something work, it should be broken out into separate recipes with later steps referencing those as **Prerequisites**. See [Add a 404 page]https://www.11ty.recipes/recipes/add-a-404-page/) for an example.
 
-- The **Directions** section should be an ordered list with code samples for each step, where applicable. If adding to existing code, it can be helpful to highlight the lines being added with existing code around it for context. See step 4 of [Add global data](http://localhost:8081/recipes/add-global-data/). You can do this in Markdown by adding line numbers (these are zero-indexed, so the first line is **0**) to highlight at the start of a codeblock:
+- The **Directions** section should be an ordered list with code samples for each step, where applicable. If adding to existing code, it can be helpful to highlight the lines being added with existing code around it for context. See step 4 of [Add global data](https://www.11ty.recipes/recipes/add-global-data/). You can do this in Markdown by adding line numbers (these are zero-indexed, so the first line is **0**) to highlight at the start of a codeblock:
 
 ```
 ```html/3-5, 6-9

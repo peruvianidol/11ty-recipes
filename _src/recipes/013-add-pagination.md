@@ -1,10 +1,10 @@
 ---
-title: Add a Pagination  
+title: Add pagination  
 authorName: Akbarsait
 authorUrl: https://www.akbarsait.com
 ---
 
-**Pagination** helps in displaying the blog post or contents organized in your blog or website. 11ty brings the pagination handy by has it built into collections itself. 
+**Pagination** helps organize the content of your blog or website. Eleventy's pagination is built into its collections feature.
 
 ### Prerequisites
 
@@ -32,17 +32,17 @@ pagination:
 ```md
 ## My Blog Posts
 
-{%- for post in posts %}
+{% raw %}{%- for post in posts %}
 - [{{ post.data.title }}]({{ post.url }})
-{%- endfor %}
+{%- endfor %}{% endraw %}
 
 
-{% if pagination.href.previous %}
+{% raw %}{% if pagination.href.previous %}
   <a href="{{pagination.href.previous}}">Previous Page</a>
 {% endif %}
 {% if pagination.href.next %}
   <a href="{{pagination.href.next}}">Next Page</a>
-{% endif %}
+{% endif %}{% endraw %}
 ```
 The above code will display the following output. 
 ```html
@@ -54,7 +54,6 @@ The above code will display the following output.
 </ul>
 <p><a href="/1/">Next Page</a></p>
 ```
-This is how simple we can achieve navigation and there many other options to make the pagination navigation more interactive and robust in 11ty.
 
 ### References
 
