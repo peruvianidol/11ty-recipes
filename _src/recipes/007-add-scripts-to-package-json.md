@@ -20,7 +20,7 @@ We can add commands to the scripts section of our **package.json** file to make 
 3. Run the `dev` script from the command line
 
 ```text
-npx run dev
+npm run dev
 ```
 4. You should see something like this:
 
