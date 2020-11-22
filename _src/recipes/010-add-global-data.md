@@ -29,7 +29,7 @@ Global data files allow you to store data in a single file and reference it in a
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="{% raw %}{{ site.author }}{% endraw %}">
+  <meta name="author" content="{% raw %}{{ site.authorName }}{% endraw %}">
   <meta name="description" content="{% raw %}{{ site.description }}{% endraw %}">
   <link rel="icon" href="{% raw %}{{ site.favicon }}{% endraw %}" type="image/svg+xml" />
   ...
