@@ -21,7 +21,7 @@ _src/
     my-first-post.md
     my-second-post.md
     my-third-post.md
-```        
+```
 
 3. Add some front matter each file. For now, we'll just specify a **layout**, **title** and a **tag**. **Tags** are the easiest way to establish a collection of related data.
 
@@ -31,7 +31,7 @@ Here's how **my-first-post.md** looks.
 ---
 layout: base
 title: My First Post
-tag: general
+tags: general
 ---
 
 Hello from {% raw %}{{ title }}{% endraw %}!
