@@ -42,9 +42,7 @@ body {
 }
 ```
 
-4. Start/restart the Eleventy server to make sure the changes to **package.json** take effect.
-
-5. Add a link to the `<head>` of your template layout.
+4. Add a link to your CSS in the `<head>` of your template layout.
 
 ```html
 <!-- _src/_includes/base.njk -->
@@ -54,7 +52,10 @@ body {
 </head>
 ```
 
-6. If you haven't done the recipe [Add files using passthrough file copy](/recipes/add-files-using-passthrough-file-copy/), you'll need to do that in order for the compiled CSS files to be added to the **_site** folder when Eleventy runs or is watching for changes.
+5. If you haven't done the recipe [Add files using passthrough file copy](/recipes/add-files-using-passthrough-file-copy/), you'll need to do that in order for the compiled CSS files to be added to the **_site** folder when Eleventy runs or is watching for changes.
+
+6. Start/restart the Eleventy server to make sure the changes to **package.json** take effect.
+
 
 ### Resources
 
