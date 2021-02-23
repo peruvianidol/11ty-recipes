@@ -56,9 +56,7 @@ body {
 
 6. Start/restart the Eleventy server to make sure the changes to **package.json** take effect.
 
-
 ### Resources
 
 * [Add Sass Compiling and Watch for Changes in Eleventy (11ty)](https://egghead.io/lessons/11ty-add-sass-compiling-and-watch-for-changes-in-eleventy-11ty)
 * [npm sass](https://www.npmjs.com/package/sass)
-
