@@ -19,7 +19,7 @@ Eleventy doesn't support Sass out of the box, but it's rather easy to add, thank
 npm install sass npm-run-all --save-dev
 ```
 
-2. In `package.json` update the **scripts** section. Here we're creating watch and build commands for both Sass and Eleventy and running them concurrently using **npm-run-all**. Sass will compile all files in **_src/sass** to **_src/css**.
+2. In **package.json** update the **scripts** section. Here we're creating watch and build commands for both Sass and Eleventy and running them concurrently using **npm-run-all**. Sass will compile all files in **_src/sass** to **_src/css**.
 
 ```json
 "scripts": {
