@@ -6,7 +6,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/fonts");
 
   // Watch sass folder for changes
-  eleventyConfig.addWatchTarget("./src/sass/");
+  eleventyConfig.addWatchTarget("./_src/sass/");
 
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);

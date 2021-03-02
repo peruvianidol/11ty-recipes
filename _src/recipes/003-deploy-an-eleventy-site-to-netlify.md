@@ -8,7 +8,7 @@ This will get our site out into the world and allow us to preview changes before
 
 [Create a git repository for your Eleventy project](/recipes/create-a-github-repository-for-your-eleventy-site/) 
 
-### Requirements
+### What you'll need
 
 ☑️ A [Netlify](https://netlify.com/) account
 
