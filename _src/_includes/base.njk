@@ -7,7 +7,9 @@ title: 11ty Recipes
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% include "partials/meta.njk" %}
-  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  <style>
+    {% include "/_site/css/style.css" %}
+  </style>
 </head>
 <body>
 
