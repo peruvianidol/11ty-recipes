@@ -66,6 +66,8 @@ module.exports = function(eleventyConfig) {
 
 6. Start/restart the Eleventy server to make sure the changes to **package.json** take effect.
 
+7. Make sure if you were using an automated build process like deploying to Netlify when your repo is updated that you are referencing the correct build command. (I had to change my build command on Netlify from `eleventy` to `npm run build`.)
+
 ### Resources
 
 * [Add Sass Compiling and Watch for Changes in Eleventy (11ty)](https://egghead.io/lessons/11ty-add-sass-compiling-and-watch-for-changes-in-eleventy-11ty)
