@@ -2,9 +2,12 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy("_src/css");
   eleventyConfig.addPassthroughCopy("_src/images");
   eleventyConfig.addPassthroughCopy("_src/fonts");
+
+  // Watch sass folder for changes
+  eleventyConfig.addWatchTarget("./_src/sass/");
+
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
 

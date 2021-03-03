@@ -4,8 +4,12 @@
   "description": "There's a ton of great Eleventy starter kits out there but they're pretty opinionated about their features and dependencies. 11ty.recipies helps you build an Eleventy site from scratch, showing you how to add individual features like a SASS pipeline or image sprite generation.",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "watch:sass": "sass --no-source-map --watch _src/sass:_site/css",
+    "build:sass": "sass --no-source-map _src/sass:_site/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,8 @@
     "@11ty/eleventy": "^0.11.0"
   },
   "devDependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.8"
   }
 }
