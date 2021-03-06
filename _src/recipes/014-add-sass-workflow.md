@@ -24,7 +24,7 @@ npm install sass npm-run-all --save-dev
 // package.json
 
 "scripts": {
-  "watch:sass": "sass --watch _src/sass:_site_/css",
+  "watch:sass": "sass --watch _src/sass:_site/css",
   "build:sass": "sass _src/sass:_site/css",
   "watch:eleventy": "eleventy --serve",
   "build:eleventy": "eleventy",
