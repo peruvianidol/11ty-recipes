@@ -64,6 +64,17 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
+**Alternatively**, set `BrowserSync` to watch for changes in CSS files within the build folder. This will prevent Eleventy from triggering a whole site build whenever the stylesheets are updated.
+
+```js
+// .eleventy.js
+
+module.exports = function(eleventyConfig) {
+  // Watch for stylesheet updates in the build folder
+  eleventyConfig.setBrowserSyncConfig({files: ["_site/**/*.css"]});
+};
+```
+
 6. Start/restart the Eleventy server to make sure the changes to **package.json** take effect.
 
 7. Make sure if you were using an automated build process like deploying to Netlify when your repo is updated that you are referencing the correct build command. (I had to change my build command on Netlify from `eleventy` to `npm run build`.)
