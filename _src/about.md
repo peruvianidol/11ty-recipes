@@ -18,11 +18,7 @@ The [Eleventy docs](https://www.11ty.dev/docs/) sum it up nicely:
 
 **11ty.Recipes** was created by me, [Mike Aparicio](https://mikeaparicio.com/). I'm the Senior Design Systems Engineer at [Provi](https://provi.com/).
 
-#### Why is this site so basic?
-
-I'm building the site using the recipes as I write them. The idea is that as more recipes are added, the site will continue to evolve.
-
-#### How can I submit a recipe?
+#### How can I submit a recipe/link?
 
 If you have a specific recipe you'd like to see here, please visit the [Github repo](https://github.com/peruvianidol/11ty-recipes) and submit an issue or, even better, submit a pull request with your own recipe! 
 

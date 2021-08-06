@@ -10,7 +10,13 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
   1. [{{ recipe.data.title }}]({{ recipe.url }})
 {%- endfor %}
 
-## Coming soon
+## Links
+
+{%- for link in links %}
+  - [{{ link.title }}]({{ link.url }}) by {{ link.author }}
+{%- endfor %}
+
+<!-- ## Coming soon
 
 * Dates
 * Tags
@@ -25,4 +31,4 @@ There's a ton of great <a href="https://11ty.dev/">Eleventy</a> starter kits out
 * Minification
 * Search
 * Image optimization
-* Icon sprite generation
+* Icon sprite generation -->

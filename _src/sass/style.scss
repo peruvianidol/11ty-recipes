@@ -69,7 +69,8 @@ h2, h3, h4, p, ul, ol {
 }
 
 ul, ol {
-  padding-left: 1.5rem;
+  padding-left: 0;
+  list-style-position: inside;
 }
 
 code[class*="language-"],
@@ -117,7 +118,8 @@ footer p {
   margin: 0;
 }
 
-ol > li:not(:last-child) {
+ol > li:not(:last-child),
+ul > li:not(:last-child) {
   margin-bottom: 1rem;
 }
 

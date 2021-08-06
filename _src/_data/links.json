@@ -1,0 +1,62 @@
+[
+  {
+    "title" : "Create a custom filter for sorting tags",
+    "author" : "Tanner Dolby",
+    "url" : "https://twitter.com/tannerdolby/status/1423445742656524288"
+  },
+  {
+    "title" : "Automatically generate open graph images",
+    "author" : "Bernard Nijenhuis",
+    "url" : "https://bnijenhuis.nl/notes/2021-05-10-automatically-generate-open-graph-images-in-eleventy/"
+  },
+  {
+    "title" : "Use Nunjucks shortcodes in Markdown files",
+    "author" : "Cassey Lottman",
+    "url" : "https://www.cassey.dev/til/2021-07-29-include-nunjucks-in-markdown-11ty/"
+  },
+  {
+    "title" : "Build a notification thingamajig",
+    "author" : "Ashur Cabrera",
+    "url" : "https://multiline.co/mment/2021/07/building-notification-thingamajig-eleventy-data/"
+  },
+  {
+    "title" : "Load file contents",
+    "author" : "Bernard Nijenhuis",
+    "url" : "https://bnijenhuis.nl/notes/2021-07-11-load-file-contents-in-eleventy/"
+  },
+  {
+    "title" : "Cache busting",
+    "author" : "Bernard Nijenhuis",
+    "url" : "https://bnijenhuis.nl/notes/2021-04-23-cache-busting-in-eleventy/"
+  },
+  {
+    "title" : "Faster YouTube embeds",
+    "author" : "Sia Karamalegos",
+    "url" : "https://sia.codes/posts/lite-youtube-embed-eleventy/"
+  },
+  { 
+    "title" : "Hide posts with future dates",
+    "author" : "Saneef Ansari",
+    "url" : "https://saneef.com/tutorials/hiding-posts-with-future-dates-in-eleventy/"
+  },
+  {
+    "title" : "Build a blog with Strapi",
+    "author" : "Daniel Madalitso Phiri",
+    "url" : "https://strapi.io/blog/building-a-blog-with-11ty-and-strapi"
+  },
+  {
+    "title" : "Display a directory treeview with syntax highlighter",
+    "author" : "Eduardo Uribe",
+    "url" : "https://mastereleventy.com/blog/prism-treeview/"
+  },
+  {
+    "title" : "Use the Notion API",
+    "author" : "Constant Vallee",
+    "url" : "https://www.constantvallee.dev/posts/notion-api-with-11ty/"
+  },
+  {
+    "title" : "Use the official image plugin",
+    "author" : "Bryce Wray",
+    "url" : "https://www.brycewray.com/posts/2021/04/using-eleventys-official-image-plugin/"
+  }
+]
