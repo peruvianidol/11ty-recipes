@@ -58,5 +58,10 @@
     "title" : "Use the official image plugin",
     "author" : "Bryce Wray",
     "url" : "https://www.brycewray.com/posts/2021/04/using-eleventys-official-image-plugin/"
+  },
+  {
+    "title" : "Create drafts",
+    "author" : "John Kemp-Cruz",
+    "url" : "https://jkc.codes/blog/creating-drafts-in-eleventy/"
   }
 ]
