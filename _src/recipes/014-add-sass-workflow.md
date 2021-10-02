@@ -53,14 +53,16 @@ body {
 </head>
 ```
 
-5. In **.eleventy.js**, use `addWatchTarget()` to watch the **sass** folder for changes. This will make sure your changes are reflected in the browser automatically when you save your `.scss` files.
+5. In **.eleventy.js**, you can use BrowserSync's config options to refresh the browser when your CSS changes, without triggering a rebuild of all your pages by Eleventy.
 
 ```js
 // .eleventy.js
 
 module.exports = function(eleventyConfig) {
-  // Watch sass folder for changes
-  eleventyConfig.addWatchTarget("./_src/sass/");
+  // Watch CSS files for changes
+  eleventyConfig.setBrowserSyncConfig({
+		files: './_site/css/**/*.css'
+	});
 };
 ```
 
@@ -72,4 +74,5 @@ module.exports = function(eleventyConfig) {
 
 * [Add Sass Compiling and Watch for Changes in Eleventy (11ty)](https://egghead.io/lessons/11ty-add-sass-compiling-and-watch-for-changes-in-eleventy-11ty)
 * [11ty-sass-skeleton](https://github.com/5t3ph/11ty-sass-skeleton) - A bare bones Eleventy starter that just includes the essential setup to watch and compile Sass, by [Stephanie Eckles](https://thinkdobecreate.com/)
+* [Using Sass with Eleventy](https://jkc.codes/blog/using-sass-with-eleventy/)
 * [npm sass](https://www.npmjs.com/package/sass)

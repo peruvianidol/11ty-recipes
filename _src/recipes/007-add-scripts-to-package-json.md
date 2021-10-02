@@ -12,15 +12,15 @@ We can add commands to the scripts section of our **package.json** file to make 
 
 ``` json/1-2
 "scripts": {
-  "dev": "npx @11ty/eleventy --serve",
-  "prod": "npx @11ty/eleventy"
+  "start": "npx @11ty/eleventy --serve",
+  "build": "npx @11ty/eleventy"
 },
 ```
 
-3. Run the `dev` script from the command line
+3. Run the `start` script from the command line
 
 ```text
-npm run dev
+npm start
 ```
 4. You should see something like this:
 
