@@ -18,7 +18,7 @@ eleventyConfig.addFilter('debug', function(content) {
 
 1. Use the filter we just created with whatever we want to investigate
 
-```js
+```html/3-5
 {% raw %}{{ collections.blog | debug }}{% endraw %}
 ```
 
