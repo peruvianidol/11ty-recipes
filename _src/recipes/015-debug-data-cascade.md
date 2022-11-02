@@ -65,3 +65,7 @@ eleventyConfig.addFilter('debug', function(content) {
   }
 ]
 ```
+
+### Resources
+
+* [Eleventy Documentation - Filter](https://www.11ty.dev/docs/filters/)
