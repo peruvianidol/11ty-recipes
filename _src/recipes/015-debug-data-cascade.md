@@ -26,7 +26,7 @@ eleventyConfig.addFilter('debug', function(content) {
 
 2. Go to our windows console, now we can see what is like inside `collections.blog`
 
-```
+```text
   {
     template: Template {
       _config: [TemplateConfig],
