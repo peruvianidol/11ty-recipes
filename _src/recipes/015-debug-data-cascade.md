@@ -19,7 +19,7 @@ eleventyConfig.addFilter('debug', function(content) {
 1. Use the filter we just created with whatever we want to investigate
 
 ```js
-{{ collections.blog | debug }}
+{% raw %}{{ collections.blog | debug }}{% endraw %}
 ```
 
 2. Go to our windows console, now we can see what is like inside `collections.blog`
