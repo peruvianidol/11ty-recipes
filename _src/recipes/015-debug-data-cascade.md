@@ -1,5 +1,7 @@
 ---
 title: Debug the Data Cascade
+authorName: Isaac Guo
+authorUrl: https://www.linkedin.com/in/isaac-guo/
 ---
 
 When we set a variable in our template but get nothing in generated result, it's more convinent to print out the variable's data cascade detail for investigation.
