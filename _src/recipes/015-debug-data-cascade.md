@@ -61,7 +61,7 @@ eleventyConfig.addFilter('debug', function(content) {
     checkTemplateContent: true,
     templateContent: [Getter/Setter],
     _templateContent: '\r\n' +
-      '<p class="title">Hello World</p>\r\n'
+      '{% raw %}<p class="title">Hello World</p>{% endraw %}\r\n'
   }
 ]
 ```
